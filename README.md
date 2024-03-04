@@ -1,3 +1,15 @@
+## Data Diri
+
+### KM x Binar Academy Batch 6
+
+|                |                      |
+| -------------- | -------------------- |
+| Nama Peserta   | Muhammad Rizki       |
+| Kelas          | FSW 1                |
+| Fasilitator    | Imam Taufiq Hermawan |
+| ID Fasilitator | F-FSW24001086        |
+|                |                      |
+
 # Javascript: Array Challenge
 
 Tugasmu disini adalah memodifikasi file-file berikut:
@@ -596,6 +608,3 @@ Contoh output:
 # Tips
 
 Happy coding!
-#   j a v a s c r i p t - a r r a y - c h a l l a n g e - c h 2  
- #   j a v a s c r i p t - a r r a y - c h a l l a n g e - c h 2  
- 
