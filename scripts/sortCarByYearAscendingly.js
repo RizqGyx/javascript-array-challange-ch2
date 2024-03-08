@@ -7,9 +7,22 @@ function sortCarByYearAscendingly(cars) {
   const result = [...cars];
 
   // Tulis code-mu disini
-  result.sort((a, b) => a.year - b.year);
+  // Cara 1 [built-in method]
+  // result.sort((a, b) => a.year - b.year);
 
-  console.log(result)
+  // Cara 2 Algoritma Sorting Bubble Sort
+  for (let i = 0; i < result.length - 1; i++) {
+    for (let j = 0; j < result.length - 1 - i; j++) {
+      if (result[j].year > result[j + 1].year) {
+        // Tukar posisi
+        const temp = result[j];
+        result[j] = result[j + 1];
+        result[j + 1] = temp;
+      }
+    }
+  }
+
+  console.log(result);
 
   // Rubah code ini dengan array hasil sorting secara ascending
   return result;
